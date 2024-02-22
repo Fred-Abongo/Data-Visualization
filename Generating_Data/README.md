@@ -1,1 +1,3 @@
 The file mpl_squares.py, defines a simple line graph using Matplotlib to plot the square numbers 1, 4, 9,16, and 25. It then customizes the plot to make it more informative by adding markers to the data points, changing the color and style of the line, adding labels for the x-axis and y-axis, a title, gridlines, and customizing the ticks on the x-axis and y-axis. Finally, it displays the plot using plt.show().
+
+The file scatter_squares.py, uses matplotlib to create a scatter plot with a single point at coordinates (2, 4) and a point size of 200. The plot is then customized with a title, axis labels, and tick label sizes before being displayed.
