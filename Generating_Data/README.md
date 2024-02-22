@@ -11,3 +11,4 @@ The file 0-scatter_squares.py, the x_values list contains the numbers to be squa
 matplotlib reads one value from each list as it plots each point. The points
 to be plotted are (1, 1), (2, 4), (3, 9), (4, 16), and (5, 25);
 
+This file 1-scatter_squares.py, generates a scatter plot of the squares of numbers from 1 to 1000. It starts by creating a list of x-values from 1 to 1000. Then a list comprehension is used to calculate the y-values, which are the squares of the x-values. The plt.scatter function is used to create the scatter plot, and the plt.axis function is used to set the range for each axis. Finally, the plot is displayed with a title and labeled axes.
