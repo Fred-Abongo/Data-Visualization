@@ -16,3 +16,5 @@ This file 1-scatter_squares.py, generates a scatter plot of the squares of numbe
 matplotlib can color points individually in a scatter plot, this file , 2-scatter_squares.py will create a scatter plot with markers that have no outlines. Thiscan be useful for creating a cleaner, more minimalist look in the plots
 
 This file 3-scatter_squares.py, colormap are used to represent the y_values as colors, providing a visual representation of the data. The points with lower y-values are coloured light blue while the points with larger y-values dark blue.
+
+This file 4-scatter_squares.py, calculates the data automatically by using list comprehension to generate y_values based on x_values. The x_values list is created using range(1, 1001), which generates numbers from 1 to 1000. The y_values list is then created using a list comprehension [x**2 for x in x_values], which squares each value in x_values
