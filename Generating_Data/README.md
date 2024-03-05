@@ -14,3 +14,5 @@ to be plotted are (1, 1), (2, 4), (3, 9), (4, 16), and (5, 25);
 This file 1-scatter_squares.py, generates a scatter plot of the squares of numbers from 1 to 1000. It starts by creating a list of x-values from 1 to 1000. Then a list comprehension is used to calculate the y-values, which are the squares of the x-values. The plt.scatter function is used to create the scatter plot, and the plt.axis function is used to suet the range for each axis. Finally, the plot is displayed with a title and labeled axes.
 
 matplotlib can color points individually in a scatter plot, this file , 2-scatter_squares.py will create a scatter plot with markers that have no outlines. Thiscan be useful for creating a cleaner, more minimalist look in the plots
+
+This file 3-scatter_squares.py, colormap are used to represent the y_values as colors, providing a visual representation of the data. The points with lower y-values are coloured light blue while the points with larger y-values dark blue.
