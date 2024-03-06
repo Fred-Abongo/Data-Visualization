@@ -18,3 +18,7 @@ matplotlib can color points individually in a scatter plot, this file , 2-scatte
 This file 3-scatter_squares.py, colormap are used to represent the y_values as colors, providing a visual representation of the data. The points with lower y-values are coloured light blue while the points with larger y-values dark blue.
 
 This file 4-scatter_squares.py, calculates the data automatically by using list comprehension to generate y_values based on x_values. The x_values list is created using range(1, 1001), which generates numbers from 1 to 1000. The y_values list is then created using a list comprehension [x**2 for x in x_values], which squares each value in x_values
+
+This file 5-scatter_squares.py,removes the outlines around points, by passing the argument edgecolor='none' when you call scatter():
+
+This file 6-scatter_squares.py, will create a scatter plot with red markers (c='red').
